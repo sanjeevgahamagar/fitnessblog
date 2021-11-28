@@ -58,24 +58,24 @@
     </section>
 
     <!-- featured posts -->
-    <section class="stat-color featured text-light">
+    <section class="featured text-light">
     <div class="container">
         <h3 id="feature" class="mt-4 mb-3 pt-3">Featured Posts</h3>
         <div class="row">
             <figure class="figure col-lg-3 col-6">
-                <img src="images/jogging.jpg" class="figure-img img-fluid border border-light rounded" alt="...">
+                <img src="images/jogging.jpg" class="figure-img img-fluid rounded" alt="...">
                 <figcaption class="figure-caption text-light">Healthier way to maintain weight.</figcaption>
               </figure>
               <figure class="figure col-lg-3 col-6">
-                <img src="images/skipping.jpg" class="figure-img img-fluid border border-light rounded" alt="...">
+                <img src="images/skipping.jpg" class="figure-img img-fluid rounded" alt="...">
                 <figcaption class="figure-caption text-light">Tough to start, easier to maintain.</figcaption>
               </figure>
               <figure class="figure col-lg-3 col-6">
-                <img src="images/cycling.jpg" class="figure-img img-fluid border border-light rounded" alt="...">
+                <img src="images/cycling.jpg" class="figure-img img-fluid rounded" alt="...">
                 <figcaption class="figure-caption text-light">Easy exercise easy weigthloss</figcaption>
               </figure>
               <figure class="figure col-lg-3 col-6">
-                <img src="images/swimming.jpg" class="figure-img img-fluid border border-light rounded" alt="...">
+                <img src="images/swimming.jpg" class="figure-img img-fluid rounded" alt="...">
                 <figcaption class="figure-caption text-light">Full body fitness at one exercise.</figcaption>
               </figure>
         </div>
@@ -171,8 +171,19 @@
                 </div>
             </div>
             <div class="col-md-6">
-                <label for="city" class="form-label">City</label>
-                <input type="text" id="city" class="form-control">
+                <label for="cityarea" class="form-label">City</label>
+                <select id="cityarea" class="form-select" required>
+                    <option selected disabled>Choose</option> 
+                    <option>Kathmandu</option>
+                    <option>Pokhara</option>
+                    <option>Butwal</option> 
+                    <option>Janakpur</option>
+                    <option>Dang</option>
+                    <option>Surkhet</option>
+                    <option>Bharatpur</option>
+                    <option>Bhairahawa</option>
+
+                 </select>   
                 <div class="invalid-feedback">Choose a valid city</div>
             </div>
             <div class="col-md-3">
