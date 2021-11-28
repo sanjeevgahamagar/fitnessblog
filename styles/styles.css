@@ -1,0 +1,17 @@
+/* navbar */
+.stat-color {
+    background-color:#2E4C6D;
+}
+
+.footer-icon {
+    text-align: center;
+
+}
+.icons {
+    margin: 0 10px;
+}
+.footer-text{
+    font-size: 0.75rem;
+    color:#fff;
+    margin:10px auto;
+}
